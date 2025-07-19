@@ -1,0 +1,800 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: white;
+    color: white;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.all-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    position: fixed;
+    background: linear-gradient(to bottom, #030B2A, #0A1B44);
+    height: 7.9rem;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
+}
+
+.logo01 {
+    height: 7.3rem;
+    width: 6.6rem;
+}
+
+.header-image01 {
+    height: 7.3rem;
+    width: 12.4rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
+}
+
+.header-text {
+    height: 6.2rem;
+    width: 44rem;
+    padding: 0.63rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    letter-spacing: 0.12rem;
+}
+
+.header-text h1 {
+    font-weight: bold;
+    font-size: 3.15rem;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+    width: auto;
+    height: 2.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text p{
+    color: rgb(210, 210, 255);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+    height: 2.25rem;
+    width: fit-content;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+}
+
+.header-menu {
+    display: flex;
+    height: 7.5rem;
+    width: 12.4rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.3rem;
+    align-items: center;
+}
+
+.menu-bar {
+    height: 3.5rem;
+    width: 2.8rem;
+    margin-left: 2.5rem;
+}
+
+.menu-bar p {
+    height: 0.75rem;
+    width: 3.2rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-top: 0rem;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.07rem;
+}
+
+.menu-bar i {
+    font-size: 1.3rem;
+}
+
+.menu-bar i:hover {
+    color: rgb(41, 41, 247);
+}
+
+.header-image02 img {
+    height: 7rem;
+    width: 4.1rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 1.45rem;
+}
+
+
+.main {
+    flex: 1;
+    background-color: blue;
+    padding-top: 7.8rem;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.IAF-video video {
+    width: 70.3rem;
+    height: 37.5rem;
+}
+
+
+.hero-section02 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.hero-text {
+    height: 5rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text h2 {
+    color: #ebae42;
+    font-weight: 600;
+    font-size: 2.7rem;
+    letter-spacing: 0.1rem;
+    height: 2.6rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    color: black;
+    font-weight: 650;
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    height: fit-content;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+}
+
+.hero-img {
+    height: fit-content;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+ 
+.hero-image {
+    height: 29.6rem;
+    width: 21.1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.about-Air-chif-marshal {
+    display: flex;
+    background-color: #040e26;
+    height: 33.6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ACM-Photo {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-left: 5.9rem;
+}
+
+.ACM-Photo img {
+    height: 27.8rem;
+    width: fit-content;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+    background-color: #7bd9f6;
+    border-radius: 0.5rem;
+    padding-right: 4.2rem;
+    padding-left: 5.5rem;
+}
+
+.ACM-text {
+    height: 3.4rem;
+    width: 31.6rem;
+    padding: 0.63rem;
+    margin-left: 2.3rem;
+    text-align: center;
+}
+
+.ACM-text h5 {
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 0.13rem;
+    margin-bottom: 0.13rem;
+    height: fit-content;
+}
+
+.ACM-text h6 {
+    font-size: 1rem;
+    font-weight: 450;
+    color: #ebae42;
+    margin-top: 0.13rem;
+    margin-bottom: 0.13rem;
+}
+
+.ACM-detail {
+    display: flex;
+    flex-direction: column;
+    width: 41rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.ACM-detail h2 {
+    text-align: center;
+    letter-spacing: 0.17rem;
+}
+
+.ACM-detail h2 {
+    font-weight: 600;
+    font-family: 'Rajdhani', sans-serif;
+    color: #ebae42;
+}
+
+.line01 {
+    font-size: 4.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.line02 {
+    font-size: 4.5rem;
+    margin-top: -1.7rem;
+    margin-bottom: 2.2rem;
+}
+
+.ACM-detail p {
+    margin: 0 auto; /* Box ko centre me kar deta hai */
+    width: 33rem;
+    text-align: justify; /* used to make content like newspaper */
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
+
+.buttons {
+    margin-left: 4rem;
+}
+
+.badge {
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    background-color: #299aff;
+    color: white;
+    border : none;
+    font-size: 1rem;
+    font-weight: normal;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width : fit-content;
+    padding-top: 0.7;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+}
+
+.IAF-background {
+    background-image: url("IAF-background02.webp");
+    background-size: cover;       /* covers entire area */
+    background-position: center;  /* center image */
+    background-repeat: no-repeat;                
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-attachment: fixed; /*Make background image fixed and other content flow as it is */
+    z-index: 0;
+}
+
+.background-text h2 {
+    font-family: "Rajdhani", serif;
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.line05 {
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
+}
+
+.line06 {
+    margin-top: -2.7rem;
+    margin-bottom: 0;
+    letter-spacing: 0.15rem;
+}
+
+.badge02 {
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    background-color: #299aff;
+    color: white;
+    border : none;
+    font-size: 1rem;
+    font-weight: normal;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width : fit-content;
+    padding-top: 0.7;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.badge02:hover {
+    transform: scale(1.05);
+    background-color: rgb(1, 1, 55);
+    color: white;
+}
+
+
+.video-background {
+    background-image: url("Vid-Back01.jpg");
+    height: 100vh;
+    width: 100vw;                 /* exactly viewport width */
+    max-width: 100vw;
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden;             /* hides any accidental overflow */
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+    padding-right: 3rem;
+}
+
+/* GALLERY - SCROLLABLE ROW */
+.all-videos {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    overflow-x: auto;             /* horizontal scroll here */
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding-top: 0.8rem;
+    padding-bottom: 2.5rem;
+    max-width: 100%;              /* restrict gallery to section */
+    box-sizing: border-box;
+    scrollbar-width: none;        /* Firefox */
+}
+
+.all-videos::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari */
+}
+
+.video-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 3.4rem;
+    width: 100%;
+    padding-bottom: 1.9rem;
+    padding-top: 1.9rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.video-text h2 {
+    font-family: "Rajdhani", serif;
+    font-size: 4.5rem;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+    color: whitesmoke;
+}
+
+/* VIDEO STYLING */
+.all-videos img {
+    flex-shrink: 0;               /* prevent shrinking */
+    height: 20rem;
+    width: 29.1rem;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.all-videos img:hover {
+    transform: scale(1.05);
+}
+
+.badge03 {
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    background-color: #299aff;
+    color: white;
+    border : none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    height: 4rem;
+    width : fit-content;
+    padding-top: 0.7;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.badge03:hover {
+    transform: scale(1.01);
+    background-color: white;
+    color: rgb(109, 108, 108);
+}
+
+.explore-button {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.photo-background {
+    background-color: #040e26;
+    height: 100vh;
+    width: 100vw;                 /* exactly viewport width */
+    max-width: 100vw;
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden;             /* hides any accidental overflow */
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+    padding-right: 3rem;
+}
+
+.all-photos {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    overflow-x: auto;             /* horizontal scroll here */
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding-top: 0.8rem;
+    padding-bottom: 2.5rem;
+    max-width: 100%;              /* restrict gallery to section */
+    box-sizing: border-box;
+    scrollbar-width: none;        /* Firefox */
+}
+
+.all-photos::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari */
+}
+
+.photo-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 3.4rem;
+    width: 100%;
+    padding-bottom: 1.9rem;
+    padding-top: 1.9rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.photo-text h2 {
+    font-family: "Rajdhani", serif;
+    font-size: 4.5rem;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+    color: whitesmoke;
+}
+
+/* PHOTO STYLING */
+.all-photos img {
+    flex-shrink: 0;               /* prevent shrinking */
+    height: 20rem;
+    width: 29.1rem;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.all-photos img:hover {
+    transform: scale(1.05);
+}
+
+.badge04 {
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+    background-color: white;
+    color: rgb(109, 108, 108);
+    border : none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    height: 4rem;
+    width : fit-content;
+    padding-top: 0.7;
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.badge04:hover {
+    transform: scale(1.01);
+    background-color: #299aff;
+    color: rgb(94, 93, 93);
+}
+
+
+.advertisenment-photo {
+    background-color: white;
+    height: 14rem;
+    width: 100vw;                 /* exactly viewport width */
+    max-width: 100vw;
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden;             /* hides any accidental overflow */
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.all-photo {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    overflow-x: auto;             /* horizontal scroll here */
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding-top: 0.8rem;
+    padding-bottom: 2.5rem;
+    max-width: 100%;              /* restrict gallery to section */
+    box-sizing: border-box;
+    scrollbar-width: none;        /* Firefox */
+}
+
+.all-photo::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari */
+}
+
+.all-photo img {
+    flex-shrink: 0;               /* prevent shrinking */
+    height: 6.5rem;
+    width: fit-content;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.all-photo img:hover {
+    transform: scale(1.03);
+}
+
+/*********************************************************/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #040e26;
+    width: 100%;
+    padding-top: 3.5rem;
+}
+
+.part01 {
+    display: flex;
+}
+
+.footer-logo {
+    height: 15rem;
+    width: 11.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.3rem;
+    margin-left: 5.8rem;
+}
+
+
+.footer-logo img {
+    height: 7.3rem;
+    width: fit-content;
+}
+
+
+.footer-logo h2 {
+    width: 100%;
+    height: 1.9rem;
+    font-size: 1.23rem;
+    font-weight: 520;
+    letter-spacing: 0.13rem;
+    margin-bottom: 0.63rem;
+}
+
+
+.mob-num01 {
+    height: auto;
+    width: auto;
+    color: white;
+    transition: transform 0.5s ease;
+    margin-bottom: 0.5rem;
+}
+
+
+.mob-num01:hover {
+    color: rgb(17, 17, 255);
+}
+
+
+.mob-num01 a{
+    color: white;
+    transition: transform 0.5s ease;
+    letter-spacing: 0.05rem;
+}
+
+
+.mob-num01 a:hover {
+    color: rgb(17, 17, 255);
+}
+
+
+.mob-num01 i {
+    padding-right: 0.3rem;
+}
+
+
+.mob-num02 {
+    height: auto;
+    width: auto;
+    color: white;
+    transition: transform 0.5s ease;
+    margin-bottom: 0.2rem;
+}
+
+
+.mob-num02:hover {
+    color: rgb(17, 17, 255);
+}
+
+
+.mob-num02 a{
+    color: white;
+    transition: transform 0.5s ease;
+    letter-spacing: 0.05rem;
+}
+
+
+.mob-num02 a:hover {
+    color: rgb(0, 0, 255);
+}
+
+
+.mob-num02 i {
+    padding-right: 0.3rem;
+}
+
+.part02 {
+    display: flex;
+    justify-content: center;
+    margin-left: 35rem;
+    margin-right: 2.5rem;
+    margin-bottom: 0.7rem;
+    padding-right: 2rem;
+}
+
+
+.footer-usefull-links p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+ol a {
+    display: flex;
+    line-height: 1.75;
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition: transform 0.5s ease;
+}
+
+ol a:hover {
+    color: rgb(0, 0, 255);
+}
+
+.link01 {
+    padding-right: 4rem;
+}
+
+.footer-links p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.part03 {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 3rem;
+}
+
+.copyright {
+    font-family: "Rajdhani", serif;
+    font-size: 1.2rem;
+    color: #0A1B44;
+    font-weight: 550;
+    opacity: 0.8;
+}
+
+
+
+
